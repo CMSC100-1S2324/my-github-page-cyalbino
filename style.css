@@ -171,6 +171,11 @@ body {
     justify-content: center;
 }
 
+#section .box .title-text{
+    font-weight: bold;
+    font-size: large;
+}
+
 .scrolling-container:hover::before,
 .scrolling-container:hover::after {
     opacity: 1;
@@ -194,6 +199,30 @@ body {
     background-color: #fff;
     padding: 20px;
     margin-right: 20px;
+}
+
+#bottom-section .box .context{
+    text-align: justify;
+    padding-top: 8px;
+    flex: 0 0 calc(33.33% - 10px); 
+}
+
+#bottom-section .box .type{
+    text-align: justify;
+    padding-top: 8px;
+    flex: 0 0 calc(33.33% - 10px); 
+    font-weight: bold;
+}
+
+#bottom-section .box .skills .list{
+    flex: 0 0 calc(34.53% - 10px); 
+    list-style: none;
+}
+
+#bottom-section .box .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #footer {
