@@ -10,4 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
         var scrollingContainer = document.querySelector('.scrolling-container');
         scrollingContainer.scrollLeft += scrollingContainer.scrollWidth; // Adjust the scroll distance as needed
     });
+
+    document.getElementById('back-to-top-button').addEventListener('click', function() {
+        console.log("Scroll Top button clicked."); 
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 });
